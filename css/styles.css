@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "CranberryBlues";
+    src: url("../assets/fonts/CranberryBlues.ttf");
+}
+
+h1 {
+    font-family: "CranberryBlues";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size :  30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    border:1px solid black;
+    background-color: lavenderblush;
+
+}
+body{
+    background-image: url('../assets/images/ciel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#myCanvas {
+    border:1px solid black;
+    background-image:url();
+    
+    
+}
+select{
+  
+    width: 150px;
+    font-size:40px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+ 
+    
+
+    
+
+
+#infosJeu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+     color:rgb(138, 9, 9);
+     font-size:0px;
+    position:absolute;
+    left:40px;
+    top:80px;
+    user-select: none;
+}
